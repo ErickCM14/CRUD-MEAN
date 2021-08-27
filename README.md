@@ -1,7 +1,6 @@
 # CRUD-MEAN
 
 Herramientas principales de desarrollo: 
-- [x] Angular
 - [x] Mongoose
 - [x] Express
 - [x] NodeJS
@@ -12,5 +11,7 @@ Práctica con el objetivo de reforzar conocimientos de en estas 4 herramientas d
 ##
 Esta es la parte del backend, la parte del frontend se encuentra en otro repositorio donde se utiliza Angular [CRUD-MEAN-Cliente](https://github.com/ErickCM14/CRUD-MEAN-Cliente)
 
-### Otras herramientas de desarrollo:
+### Modulos de desarrollo:
 - [x] Nodemon
+- [x] Cors
+- [x] Dotenv
