@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config( {path: 'variables.env'} );
-const mongoUri = "mongodb+srv://admin:admin123@cluster0.qaz2i.mongodb.net/meanusuario?retryWrites=true&w=majority"
+const mongoUri = "mongodb+srv://admin:admin123@cluster0.qaz2i.mongodb.net/meanusuario"
 
 const conectarDB = async () => {
  
