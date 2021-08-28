@@ -16,4 +16,6 @@ Esta es la parte del backend, la parte del frontend se encuentra en otro reposit
 - [x] Cors
 - [x] Dotenv
 
-"dev": "nodemon ."
+### Deploy
+- [x] Vercel
+
