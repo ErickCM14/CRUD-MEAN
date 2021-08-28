@@ -20,4 +20,4 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
     res.send("Hola mundo"); 
 })
-app.use('/api/usuarios', require('./routes/usuario'))
+// app.use('/api/usuarios', require('./routes/usuario'))
