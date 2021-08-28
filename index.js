@@ -3,7 +3,7 @@ const conectarDB = require('./config/db');
 const cors = require('cors');
 
 const app = express();
-
+const PORT = process.env.PORT || 3000;
 //Conectamos a la BD
 conectarDB();
 app.use(cors());
@@ -13,8 +13,8 @@ app.use(express.json());
 app.use('/api/usuarios', require('./routes/usuario'))
 
 
-app.listen(3000, () => {
-    console.log("Servidor corriendo exitosamente! puerto 3000");
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo exitosamente! puerto ${PORT}`);
 })
 
 app.get("/", (req, res) => {
