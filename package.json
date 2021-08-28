@@ -4,6 +4,7 @@
   "description": "CRUD MEAN",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon ."
   },
   "author": "Erick Carranza",
